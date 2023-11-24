@@ -5,7 +5,7 @@ ARG FUNCTION_DIR="/var/task"
 
 COPY package.json .
 
-RUN npm install && npm install typescript -g
+RUN npm install typescript -g && yarn install
 
 COPY . .
 
@@ -22,7 +22,7 @@ ARG FUNCTION_DIR="/var/task"
 
 COPY package.json .
 
-RUN npm install && npm install typescript -g
+RUN npm install typescript -g && yarn install
 
 COPY . .
 
@@ -39,7 +39,7 @@ ARG FUNCTION_DIR="/var/task"
 
 COPY package.json .
 
-RUN npm install && npm install typescript -g
+RUN npm install typescript -g && yarn install
 
 COPY . .
 
@@ -56,7 +56,7 @@ ARG FUNCTION_DIR="/var/task"
 
 COPY package.json .
 
-RUN npm install && npm install typescript -g
+RUN npm install typescript -g && yarn install
 
 COPY . .
 
