@@ -5,6 +5,9 @@
   "repository": "git@github.com:kyo-jp/vendor-api.git",
   "author": "uekyo <kyo@viv.co.jp>",
   "license": "MIT",
+  "scripts": {
+    "start": "node \"build/aws.js\""
+  },  
   "dependencies": {
     "@aws-sdk/util-dynamodb": "^3.454.0",
     "aws-sdk": "^2.1502.0",
